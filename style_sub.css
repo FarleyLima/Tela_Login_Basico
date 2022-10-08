@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #360745;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    font-size: 22px;
+}
+.pagina-cadastro {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d61c59;
+    width: 500px;
+    height: 600px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    
+
+}
+form input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 450px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #efeac5;
+    color: #000000;
+    outline: 0;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+    
+}
+.title {
+    margin-bottom: 18px;
+    margin-top: 5px;
+}
+label {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+input::placeholder {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    color: #1d1c1c;
+}
+input[type=submit] {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 35px;  
+}
+
+input[type=submit]:hover {
+    background-color: #360745;
+    color: #efeac5;
+}
+
+.txt2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
